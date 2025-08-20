@@ -50,6 +50,10 @@ void main() {
   String? inputHobi;
   int index = 1;
 
+  // PERBEDAAN print() dan stdout.write
+  // print() AKAN MENAMBAHKAN BARIS BARU SETELAH OUTPUT
+  // stdout.write() TIDAK MENAMBAHKAN BARIS BARU
+
   stdout.write("Masukan nama Anda\t: ");
   var inputName = stdin.readLineSync()?.trim() ?? "Tidak ada input";
   
